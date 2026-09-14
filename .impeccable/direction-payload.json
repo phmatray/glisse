@@ -1,0 +1,126 @@
+{
+  "title": "Choisir le monde visuel du Kaossilator",
+  "question": "Le tirage a assigné « Oscilloscope de banc ». Garder, prendre une alternative, ou relancer.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Oscilloscope de banc",
+      "kicker": "THE ROLL",
+      "lineage": "Oscilloscopes Tektronix des années 70, mode X-Y",
+      "thesis": "Le pad est un tube cathodique en mode X-Y : le doigt est le faisceau, et le corps de l'instrument autour reste un émail calme aux étiquettes gravées.",
+      "palette": ["#cfd3cc", "#0b1210", "#63f59a", "#f2b544", "#1a1d1b"],
+      "materials": ["émail acier gris-bleu", "verre phosphore P31 avec graticule", "étiquettes gravées sur bezel", "lampes témoins"],
+      "viewport": "L'écran tient le cadre : un pad CRT quadrillé où la trace phosphore décline sous le doigt et où la position de boucle tourne ; programme, gamme, clé et tempo se lisent sur une seule barre de lecteurs gravés ; boucleur et gate arp sur une rangée d'interrupteurs physiques à lampe.",
+      "risk": "Devient un costume rétro si la lueur est décorative : le phosphore doit être l'état réel (trace, position de boucle, gate), jamais un filtre.",
+      "raised": [
+        {"from": "challenger-cloud-quarry", "raise": "La composition empile des blocs pleins séparés par des vides profonds : aucune carte, aucun conteneur imbriqué."},
+        {"from": "challenger-star-atlas", "raise": "Une seule rampe de tailles fixe pour toutes les lampes et indicateurs ; la hiérarchie passe par le diamètre, pas par la couleur."},
+        {"from": "challenger-darkroom", "raise": "La couche de boucle non sauvegardée se prévisualise distinctement avant que FIX ne la grave ; les étapes irréversibles sont marquées."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Panneau de groovebox",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Façades Roland TR-808 / TR-909",
+      "thesis": "Chaque groupe de commandes porte sa couleur de signal sur charbon ; le pad n'est qu'une section de panneau parmi les autres.",
+      "palette": ["#2b2b2b", "#f04e23", "#f2d43d", "#e8e6df", "#d63a3a"],
+      "materials": ["panneau thermolaqué", "légendes sérigraphiées", "boutons caoutchouc", "LED rouges"],
+      "viewport": "Pad centré, groupes de commandes en bandes colorées (programme orange, boucleur rouge, gate jaune, gamme blanche), légendes imprimées au-dessus de chaque groupe.",
+      "risk": "C'est aussi là qu'atterrissent la plupart des applis synthé : familier par construction."
+    },
+    {
+      "id": "challenger-vertical-feed",
+      "label": "Flux vidéo vertical",
+      "verdict": "competitive",
+      "lineage": "Surfaces de flux vertical plein écran",
+      "thesis": "Un programme occupe tout l'écran, une colonne d'actions à droite, le suivant à un glissement.",
+      "palette": ["#000000", "#ffffff", "#63f59a"],
+      "materials": ["média plein cadre", "voile bas", "glyphes blancs"],
+      "viewport": "Le pad remplit le viewport, nom du programme en bas à gauche, boucleur / gate / tap en rail vertical à droite, programme suivant un cran plus bas.",
+      "case": "Tient l'identification (visiteurs web, mobile) et la clarté mobile ; perd la densité d'état sur ordinateur.",
+      "risk": "Sur grand écran, les états (gamme, clé, motif) disparaissent derrière le rail.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-vertical-video-feed-surface-hero.webp"
+    },
+    {
+      "id": "challenger-quote-grammar",
+      "label": "Grammaire streetwear industrielle",
+      "verdict": "competitive",
+      "lineage": "Étiquettes streetwear, mots ordinaires entre guillemets droits",
+      "thesis": "Chaque zone porte son nom littéral entre guillemets, l'actif garde son zip-tie orange, le désactivé prend la rayure.",
+      "palette": ["#f4f2ee", "#111111", "#ff6a13"],
+      "materials": ["coton blanc", "nylon noir", "rayures danger 45°", "zip-tie orange"],
+      "viewport": "Le pad sous une rayure diagonale, \"LOOP\" \"SCALE\" \"GATE\" en capitales entre guillemets, l'état ON/OFF cité tel quel.",
+      "case": "Tient l'identification avec les jeunes beatmakers ; perd la clarté : les guillemets bruitent une surface déjà dense.",
+      "risk": "Le geste typographique s'use vite sur cent programmes.",
+      "hero": "https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-industrial-quote-grammar-hero.webp"
+    },
+    {
+      "id": "challenger-arcade-crt",
+      "label": "Écran d'arcade pixel",
+      "verdict": "competitive",
+      "lineage": "Bornes d'arcade CRT, pixels gras et scanlines",
+      "thesis": "Le pad est un terrain de jeu en tuiles, les états sont des échanges de sprites à palette stricte.",
+      "palette": ["#000000", "#00e756", "#ff004d", "#ffec27", "#29adff"],
+      "materials": ["pixels lumineux", "scanlines", "bloom phosphore"],
+      "viewport": "Pad en grille de tuiles, score et menus en capitales 8×8 épinglés en haut, chaque bouton un sprite.",
+      "case": "Tient l'identification (scène chiptune) ; perd la clarté : les capitales 8×8 ne portent pas cent noms de programmes.",
+      "risk": "Nouveauté rétro si la grille n'est pas stricte.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-crt-arcade-pixel-glow-hero.webp"
+    },
+    {
+      "id": "challenger-cloud-quarry",
+      "label": "Carrière de nuages",
+      "verdict": "declined",
+      "lineage": "Mondes impossibles : blocs de météo découpés",
+      "thesis": "Découper des blocs de temps et bâtir des architectures qui pleuvent.",
+      "palette": ["#f6f7f8", "#3a7bd5", "#5b6470", "#c8ccd1"],
+      "materials": ["masse cumulus", "vides bleus", "trait de scie argent"],
+      "viewport": "Sections empilées comme des blocs coupés, vides bleus entre elles.",
+      "case": "Fusionne mal : un musicien ne s'identifie pas à un carrier de nuages, et le pad n'est pas un bloc.",
+      "risk": "Métaphore sans prise sur la tâche.",
+      "kept": "Composition en blocs pleins séparés par des vides profonds, sans cartes.",
+      "hero": "https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-cloud-quarry-hero.webp"
+    },
+    {
+      "id": "challenger-star-atlas",
+      "label": "Atlas stellaire",
+      "verdict": "declined",
+      "lineage": "Cartes du ciel, magnitudes en diamètres de points",
+      "thesis": "Les programmes comme des étoiles rangées par constellation de catégorie.",
+      "palette": ["#0e1a3a", "#f1ede2", "#ffb347"],
+      "materials": ["fond marine", "points craie", "ambre lampe rouge"],
+      "viewport": "Le catalogue en carte, diamètre = importance.",
+      "case": "Perd sur les deux axes : l'astronomie n'est pas le monde du beatmaker et le diamètre ne code aucune commande.",
+      "risk": "Joli, illisible pour jouer.",
+      "kept": "Une rampe de tailles fixe pour tous les indicateurs.",
+      "hero": "https://impeccable.style/worlds/cards/notation-diagram-systems-star-atlas-hero.webp"
+    },
+    {
+      "id": "challenger-darkroom",
+      "label": "Labo photo sous lampe ambre",
+      "verdict": "declined",
+      "lineage": "Chambre noire, bains chronométrés",
+      "thesis": "Enregistrer, fixer, laver : le boucleur comme un tirage qui apparaît dans le bac.",
+      "palette": ["#f0a030", "#3a2a12", "#c9c9c9", "#111111"],
+      "materials": ["lavis ambre", "gris argent humide", "émail blanc"],
+      "viewport": "Stations dans l'ordre, minuterie et bandes d'essai.",
+      "case": "Le vocabulaire (FIX) coïncide, mais l'identification échoue et l'ambre écrase les états.",
+      "risk": "Tout ambre, rien ne se distingue.",
+      "kept": "Prévisualiser la couche non sauvegardée avant l'étape irréversible.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-darkroom-safelight-bay-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "Le standard de la catégorie",
+    "thesis": "Ce que livre une appli synthé web : fond charbon, un accent néon, boutons lumineux, exécuté impeccablement.",
+    "palette": ["#161616", "#f5f5f5", "#6be1ff"],
+    "materials": ["fond sombre", "lueur d'accent", "boutons arrondis"],
+    "viewport": "Pad à gauche ou au centre, panneaux de réglages autour, l'arrangement attendu, au niveau de finition attendu.",
+    "risk": "Indiscernable des autres applis synthé, par construction."
+  },
+  "steer": true
+}

@@ -1,0 +1,673 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-14T14:23:28.416Z",
+  "title": "Design System: Glisse",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Charbon fond",
+        "canonical": "oklch(21.8% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Charbon panneau",
+        "canonical": "oklch(28.5% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "well": {
+        "role": "neutral",
+        "displayName": "Puits",
+        "canonical": "oklch(17.8% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Filet",
+        "canonical": "oklch(40.2% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "seam-dark": {
+        "role": "neutral",
+        "displayName": "Couture sombre",
+        "canonical": "oklch(19.1% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "seam-light": {
+        "role": "neutral",
+        "displayName": "Couture claire",
+        "canonical": "oklch(34.8% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Encre",
+        "canonical": "oklch(92.8% 0.018 89)",
+        "tonalRamp": [
+          "oklch(15% 0.018 89)",
+          "oklch(26% 0.018 89)",
+          "oklch(38% 0.018 89)",
+          "oklch(49% 0.018 89)",
+          "oklch(61% 0.018 89)",
+          "oklch(72% 0.018 89)",
+          "oklch(84% 0.018 89)",
+          "oklch(95% 0.018 89)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Encre 2",
+        "canonical": "oklch(76.8% 0.021 88)",
+        "tonalRamp": [
+          "oklch(15% 0.021 88)",
+          "oklch(26% 0.021 88)",
+          "oklch(38% 0.021 88)",
+          "oklch(49% 0.021 88)",
+          "oklch(61% 0.021 88)",
+          "oklch(72% 0.021 88)",
+          "oklch(84% 0.021 88)",
+          "oklch(95% 0.021 88)"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Encre 3",
+        "canonical": "oklch(67.7% 0.021 91)",
+        "tonalRamp": [
+          "oklch(15% 0.021 91)",
+          "oklch(26% 0.021 91)",
+          "oklch(38% 0.021 91)",
+          "oklch(49% 0.021 91)",
+          "oklch(61% 0.021 91)",
+          "oklch(72% 0.021 91)",
+          "oklch(84% 0.021 91)",
+          "oklch(95% 0.021 91)"
+        ]
+      },
+      "orange": {
+        "role": "primary",
+        "displayName": "Orange signal",
+        "canonical": "oklch(67.9% 0.183 45)",
+        "tonalRamp": [
+          "oklch(15% 0.183 45)",
+          "oklch(26% 0.183 45)",
+          "oklch(38% 0.183 45)",
+          "oklch(49% 0.183 45)",
+          "oklch(61% 0.183 45)",
+          "oklch(72% 0.183 45)",
+          "oklch(84% 0.183 45)",
+          "oklch(95% 0.183 45)"
+        ]
+      },
+      "cream": {
+        "role": "secondary",
+        "displayName": "Crème panneau",
+        "canonical": "oklch(91.3% 0.025 89)",
+        "tonalRamp": [
+          "oklch(15% 0.025 89)",
+          "oklch(26% 0.025 89)",
+          "oklch(38% 0.025 89)",
+          "oklch(49% 0.025 89)",
+          "oklch(61% 0.025 89)",
+          "oklch(72% 0.025 89)",
+          "oklch(84% 0.025 89)",
+          "oklch(95% 0.025 89)"
+        ]
+      },
+      "yellow": {
+        "role": "secondary",
+        "displayName": "Jaune signal",
+        "canonical": "oklch(84.6% 0.160 92)",
+        "tonalRamp": [
+          "oklch(15% 0.160 92)",
+          "oklch(26% 0.160 92)",
+          "oklch(38% 0.160 92)",
+          "oklch(49% 0.160 92)",
+          "oklch(61% 0.160 92)",
+          "oklch(72% 0.160 92)",
+          "oklch(84% 0.160 92)",
+          "oklch(95% 0.160 92)"
+        ]
+      },
+      "red": {
+        "role": "secondary",
+        "displayName": "Rouge signal",
+        "canonical": "oklch(63.3% 0.199 29)",
+        "tonalRamp": [
+          "oklch(15% 0.199 29)",
+          "oklch(26% 0.199 29)",
+          "oklch(38% 0.199 29)",
+          "oklch(49% 0.199 29)",
+          "oklch(61% 0.199 29)",
+          "oklch(72% 0.199 29)",
+          "oklch(84% 0.199 29)",
+          "oklch(95% 0.199 29)"
+        ]
+      },
+      "led": {
+        "role": "secondary",
+        "displayName": "LED rouge",
+        "canonical": "oklch(65.4% 0.232 29)",
+        "tonalRamp": [
+          "oklch(15% 0.232 29)",
+          "oklch(26% 0.232 29)",
+          "oklch(38% 0.232 29)",
+          "oklch(49% 0.232 29)",
+          "oklch(61% 0.232 29)",
+          "oklch(72% 0.232 29)",
+          "oklch(84% 0.232 29)",
+          "oklch(95% 0.232 29)"
+        ]
+      },
+      "led-off": {
+        "role": "secondary",
+        "displayName": "LED rouge éteinte",
+        "canonical": "oklch(30.3% 0.065 27)",
+        "tonalRamp": [
+          "oklch(15% 0.065 27)",
+          "oklch(26% 0.065 27)",
+          "oklch(38% 0.065 27)",
+          "oklch(49% 0.065 27)",
+          "oklch(61% 0.065 27)",
+          "oklch(72% 0.065 27)",
+          "oklch(84% 0.065 27)",
+          "oklch(95% 0.065 27)"
+        ]
+      },
+      "led-cream": {
+        "role": "secondary",
+        "displayName": "LED crème",
+        "canonical": "oklch(94.0% 0.067 87)",
+        "tonalRamp": [
+          "oklch(15% 0.067 87)",
+          "oklch(26% 0.067 87)",
+          "oklch(38% 0.067 87)",
+          "oklch(49% 0.067 87)",
+          "oklch(61% 0.067 87)",
+          "oklch(72% 0.067 87)",
+          "oklch(84% 0.067 87)",
+          "oklch(95% 0.067 87)"
+        ]
+      },
+      "led-cream-off": {
+        "role": "secondary",
+        "displayName": "LED crème éteinte",
+        "canonical": "oklch(38.8% 0.024 88)",
+        "tonalRamp": [
+          "oklch(15% 0.024 88)",
+          "oklch(26% 0.024 88)",
+          "oklch(38% 0.024 88)",
+          "oklch(49% 0.024 88)",
+          "oklch(61% 0.024 88)",
+          "oklch(72% 0.024 88)",
+          "oklch(84% 0.024 88)",
+          "oklch(95% 0.024 88)"
+        ]
+      },
+      "led-green": {
+        "role": "tertiary",
+        "displayName": "LED verte transport",
+        "canonical": "oklch(78.4% 0.200 146)",
+        "tonalRamp": [
+          "oklch(15% 0.200 146)",
+          "oklch(26% 0.200 146)",
+          "oklch(38% 0.200 146)",
+          "oklch(49% 0.200 146)",
+          "oklch(61% 0.200 146)",
+          "oklch(72% 0.200 146)",
+          "oklch(84% 0.200 146)",
+          "oklch(95% 0.200 146)"
+        ]
+      },
+      "btn": {
+        "role": "neutral",
+        "displayName": "Caoutchouc",
+        "canonical": "oklch(35.2% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "btn-edge": {
+        "role": "neutral",
+        "displayName": "Rebord de touche",
+        "canonical": "oklch(23.9% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "btn-hi": {
+        "role": "neutral",
+        "displayName": "Caoutchouc survol",
+        "canonical": "oklch(39.8% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "grid-line": {
+        "role": "neutral",
+        "displayName": "Grille colonnes",
+        "canonical": "oklch(32.1% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "grid-row": {
+        "role": "neutral",
+        "displayName": "Grille lignes",
+        "canonical": "oklch(26.9% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "display-bg": {
+        "role": "tertiary",
+        "displayName": "Afficheur fond",
+        "canonical": "oklch(17.8% 0.035 61)",
+        "tonalRamp": [
+          "oklch(15% 0.035 61)",
+          "oklch(26% 0.035 61)",
+          "oklch(38% 0.035 61)",
+          "oklch(49% 0.035 61)",
+          "oklch(61% 0.035 61)",
+          "oklch(72% 0.035 61)",
+          "oklch(84% 0.035 61)",
+          "oklch(95% 0.035 61)"
+        ]
+      },
+      "display-amber": {
+        "role": "tertiary",
+        "displayName": "Afficheur ambré",
+        "canonical": "oklch(82.7% 0.115 57)",
+        "tonalRamp": [
+          "oklch(15% 0.115 57)",
+          "oklch(26% 0.115 57)",
+          "oklch(38% 0.115 57)",
+          "oklch(49% 0.115 57)",
+          "oklch(61% 0.115 57)",
+          "oklch(72% 0.115 57)",
+          "oklch(84% 0.115 57)",
+          "oklch(95% 0.115 57)"
+        ]
+      },
+      "display-amber-dim": {
+        "role": "tertiary",
+        "displayName": "Afficheur ambré sombre",
+        "canonical": "oklch(64.9% 0.112 52)",
+        "tonalRamp": [
+          "oklch(15% 0.112 52)",
+          "oklch(26% 0.112 52)",
+          "oklch(38% 0.112 52)",
+          "oklch(49% 0.112 52)",
+          "oklch(61% 0.112 52)",
+          "oklch(72% 0.112 52)",
+          "oklch(84% 0.112 52)",
+          "oklch(95% 0.112 52)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Identifiant de programme dans l'afficheur SOUND ; 28px sous 440px."
+      },
+      "headline": {
+        "displayName": "Wordmark",
+        "purpose": "GLISSE dans le bandeau, seule occurrence."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Nom du programme dans l'afficheur."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base ; libellés d'axe, aide du pad, pied."
+      },
+      "numeric": {
+        "displayName": "Numeric",
+        "purpose": "Champ BPM et selects (14px) ; chiffres tabulaires."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Légendes de champ, catégorie, couches."
+      },
+      "label-key": {
+        "displayName": "Label-key",
+        "purpose": "Texte des touches, POWER, compteur de temps."
+      },
+      "label-head": {
+        "displayName": "Label-head",
+        "purpose": "Titre d'onglet de groupe."
+      }
+    },
+    "shadows": [
+      {
+        "name": "well-deep",
+        "value": "inset 0 2px 8px #000",
+        "purpose": "Pad et afficheur SOUND."
+      },
+      {
+        "name": "well",
+        "value": "inset 0 1px 4px #000",
+        "purpose": "Selects, champ BPM, barre de gate, mètre."
+      },
+      {
+        "name": "track",
+        "value": "inset 0 1px 3px #000",
+        "purpose": "Piste du curseur de volume."
+      },
+      {
+        "name": "seam",
+        "value": "0 1px 0 #3a3a3a",
+        "purpose": "Ligne claire sous une bordure #141414 entre les sections (1px 0 0 à droite du pad, inset 0 1px 0 au-dessus du pied)."
+      },
+      {
+        "name": "panel-top",
+        "value": "inset 0 1px 0 #3d3d3d",
+        "purpose": "Reflet du bord supérieur de la plaque."
+      },
+      {
+        "name": "lamp-off",
+        "value": "inset 0 0 0 1px #0007",
+        "purpose": "Anneau de LED éteinte."
+      },
+      {
+        "name": "lamp-on",
+        "value": "inset 0 0 0 1px #0007, 0 1px 2px #0009",
+        "purpose": "LED allumée, avec reflet radial-gradient(circle at 35% 30%,#fff9 0,transparent 45%)."
+      },
+      {
+        "name": "ring",
+        "value": "0 0 0 1px #0008, 0 2px 6px #0009",
+        "purpose": "Bague orange sous le doigt."
+      },
+      {
+        "name": "thumb",
+        "value": "0 2px 3px #0009",
+        "purpose": "Bouton du curseur de volume."
+      }
+    ],
+    "motion": [
+      {
+        "name": "t-fast",
+        "value": "150ms",
+        "purpose": "Toutes les transitions de touche, lampe, opacité."
+      },
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Courbe standard."
+      },
+      {
+        "name": "col-lit",
+        "value": "120ms",
+        "purpose": "Allumage de la colonne de gamme sous le doigt."
+      },
+      {
+        "name": "hint-fade",
+        "value": "250ms",
+        "purpose": "Effacement de l'aide du pad au premier geste."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition:none",
+        "purpose": "prefers-reduced-motion coupe toutes les transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "820px"
+      },
+      {
+        "name": "narrow",
+        "value": "440px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Touche caoutchouc",
+      "kind": "button",
+      "refersTo": "key",
+      "description": "Touche de groovebox grise à rebord 3 px ; s'enfonce de 2 px à l'appui.",
+      "html": "<button class=\"ds-key\">Fix</button> <button class=\"ds-key ds-held\">Rec · hold</button> <button class=\"ds-key\" disabled>Cancel</button>",
+      "css": ".ds-key{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 12px;background:#3b3b3b;border:1px solid #1f1f1f;border-bottom-width:3px;border-radius:5px;font-family:'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;text-transform:uppercase;font-weight:600;font-size:13px;line-height:1;letter-spacing:.12em;color:#ece7da;cursor:pointer;white-space:nowrap;transition:background 150ms cubic-bezier(.2,.8,.2,1),transform 150ms cubic-bezier(.2,.8,.2,1)}.ds-key:hover:not(:disabled){background:#474747}.ds-key:focus-visible{outline:2px solid #e9e2d0;outline-offset:2px}.ds-key:active:not(:disabled),.ds-key.ds-held{transform:translateY(2px);border-bottom-width:1px;margin-bottom:2px;background:#474747}.ds-key:disabled{opacity:.38;cursor:not-allowed}"
+    },
+    {
+      "name": "Touche à LED",
+      "kind": "button",
+      "refersTo": "key",
+      "description": "Touche avec lampe 8 px en haut à gauche ; la couleur suit le rôle (rec, play, arp, tap).",
+      "html": "<button class=\"ds-key ds-key-lamp\" style=\"--c:#ff3b30\"><span class=\"ds-lamp ds-on\"></span>Rec · hold</button> <button class=\"ds-key ds-key-lamp\" style=\"--c:#4cd964\"><span class=\"ds-lamp\"></span>Play</button> <button class=\"ds-key ds-key-lamp\" style=\"--c:#f2c832\"><span class=\"ds-lamp ds-on\"></span>On / Off</button>",
+      "css": ".ds-key{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 12px;background:#3b3b3b;border:1px solid #1f1f1f;border-bottom-width:3px;border-radius:5px;font-family:'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;text-transform:uppercase;font-weight:600;font-size:13px;line-height:1;letter-spacing:.12em;color:#ece7da;cursor:pointer;white-space:nowrap;transition:background 150ms cubic-bezier(.2,.8,.2,1),transform 150ms cubic-bezier(.2,.8,.2,1)}.ds-key:hover:not(:disabled){background:#474747}.ds-key:focus-visible{outline:2px solid #e9e2d0;outline-offset:2px}.ds-key:active:not(:disabled),.ds-key.ds-held{transform:translateY(2px);border-bottom-width:1px;margin-bottom:2px;background:#474747}.ds-key:disabled{opacity:.38;cursor:not-allowed}.ds-lamp{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--off,#4a201c);box-shadow:inset 0 0 0 1px #0007;flex:none;transition:background 150ms,box-shadow 150ms}.ds-lamp.ds-md{width:12px;height:12px}.ds-lamp.ds-on{background:radial-gradient(circle at 35% 30%,#fff9 0,transparent 45%),var(--c,#ff3b30);box-shadow:inset 0 0 0 1px #0007,0 1px 2px #0009}.ds-key-lamp .ds-lamp{position:absolute;top:6px;left:6px}"
+    },
+    {
+      "name": "POWER",
+      "kind": "button",
+      "refersTo": "power-key",
+      "description": "Interrupteur du bandeau : touche à lampe 12 px crème en ligne.",
+      "html": "<button class=\"ds-power\" aria-pressed=\"true\"><span class=\"ds-lamp ds-md ds-on\" style=\"--c:#ffe9b8;--off:#4a4436\"></span>Power</button>",
+      "css": ".ds-power{display:inline-flex;align-items:center;gap:10px;min-height:44px;background:#3b3b3b;border:1px solid #1f1f1f;border-bottom-width:3px;border-radius:5px;padding:8px 14px;font-family:'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;text-transform:uppercase;font-weight:600;font-size:13px;line-height:1;letter-spacing:.14em;color:#ece7da;cursor:pointer;transition:background 150ms cubic-bezier(.2,.8,.2,1)}.ds-power:hover{background:#474747}.ds-power:focus-visible{outline:2px solid #e9e2d0;outline-offset:2px}.ds-lamp{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--off,#4a201c);box-shadow:inset 0 0 0 1px #0007;flex:none;transition:background 150ms,box-shadow 150ms}.ds-lamp.ds-md{width:12px;height:12px}.ds-lamp.ds-on{background:radial-gradient(circle at 35% 30%,#fff9 0,transparent 45%),var(--c,#ff3b30);box-shadow:inset 0 0 0 1px #0007,0 1px 2px #0009}"
+    },
+    {
+      "name": "Rampe de lampes",
+      "kind": "custom",
+      "refersTo": "lamp",
+      "description": "Une seule rampe : 8 px (touches) et 12 px (mètre, POWER). Rouge, crème, jaune, verte, orange selon le rôle.",
+      "html": "<span class=\"ds-lamp\"></span> <span class=\"ds-lamp ds-on\"></span> <span class=\"ds-lamp ds-md\"></span> <span class=\"ds-lamp ds-md ds-on\"></span> <span class=\"ds-lamp ds-md ds-on\" style=\"--c:#ffe9b8\"></span> <span class=\"ds-lamp ds-md ds-on\" style=\"--c:#f06a1f\"></span>",
+      "css": ".ds-lamp{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--off,#4a201c);box-shadow:inset 0 0 0 1px #0007;flex:none;transition:background 150ms,box-shadow 150ms}.ds-lamp.ds-md{width:12px;height:12px}.ds-lamp.ds-on{background:radial-gradient(circle at 35% 30%,#fff9 0,transparent 45%),var(--c,#ff3b30);box-shadow:inset 0 0 0 1px #0007,0 1px 2px #0009}"
+    },
+    {
+      "name": "Puits de sélection",
+      "kind": "input",
+      "refersTo": "select-well",
+      "description": "Select encaissé dans un puits noir, chevron SVG inline.",
+      "html": "<div class=\"ds-sel\"><select aria-label=\"Scale\"><option>ION · Ionian</option><option>DOR · Dorian</option></select></div>",
+      "css": ".ds-sel{position:relative;min-width:0}.ds-sel select{width:100%;min-height:44px;appearance:none;-webkit-appearance:none;background:#111 url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23b9b3a5' stroke-width='2'/%3E%3C/svg%3E\") no-repeat right 10px center;border:1px solid #000;border-radius:5px;padding:8px 30px 8px 10px;color:#ece7da;font:500 14px/1.2 'Barlow','Helvetica Neue',Arial,sans-serif;box-shadow:inset 0 1px 4px #000;text-overflow:ellipsis;transition:border-color 150ms}.ds-sel select:hover:not(:disabled){border-color:#484848}.ds-sel select:focus-visible{outline:2px solid #e9e2d0;outline-offset:2px}.ds-sel select:disabled{opacity:.38}"
+    },
+    {
+      "name": "Champ numérique",
+      "kind": "input",
+      "refersTo": "number-well",
+      "description": "Champ BPM : puits noir, chiffres tabulaires, caret orange.",
+      "html": "<label class=\"ds-field\"><span>BPM 20–300</span><input class=\"ds-num\" type=\"number\" value=\"120\" min=\"20\" max=\"300\" step=\"0.1\"></label>",
+      "css": ".ds-field{display:grid;gap:5px;min-width:0}.ds-field>span{font-family:'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;text-transform:uppercase;font-weight:600;font-size:11px;line-height:1;letter-spacing:.16em;color:#b9b3a5}.ds-num{width:100%;min-height:44px;background:#111;border:1px solid #000;border-radius:5px;padding:8px 10px;color:#ece7da;font:500 15px/1.2 'Barlow','Helvetica Neue',Arial,sans-serif;font-variant-numeric:tabular-nums;box-shadow:inset 0 1px 4px #000;-moz-appearance:textfield;caret-color:#f06a1f}.ds-num::-webkit-inner-spin-button,.ds-num::-webkit-outer-spin-button{-webkit-appearance:none}.ds-num:focus-visible{outline:2px solid #e9e2d0;outline-offset:2px}"
+    },
+    {
+      "name": "Curseur de volume",
+      "kind": "input",
+      "refersTo": "fader-thumb",
+      "description": "Fader : piste 6 px en puits, bouton rectangulaire 22×30 à bande orange.",
+      "html": "<input class=\"ds-range\" type=\"range\" min=\"0\" max=\"1\" step=\"0.01\" value=\"0.8\" aria-label=\"Volume\">",
+      "css": ".ds-range{width:100%;min-height:44px;margin:0;-webkit-appearance:none;appearance:none;background:transparent;cursor:pointer}.ds-range::-webkit-slider-runnable-track{height:6px;background:#111;border:1px solid #000;border-radius:3px;box-shadow:inset 0 1px 3px #000}.ds-range::-moz-range-track{height:6px;background:#111;border:1px solid #000;border-radius:3px}.ds-range::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:30px;margin-top:-13px;border-radius:3px;background:linear-gradient(to right,transparent 0 10px,#f06a1f 10px 12px,transparent 12px),#3b3b3b;border:1px solid #1f1f1f;box-shadow:0 2px 3px #0009}.ds-range::-moz-range-thumb{width:22px;height:30px;border-radius:3px;background:linear-gradient(to right,transparent 0 10px,#f06a1f 10px 12px,transparent 12px),#3b3b3b;border:1px solid #1f1f1f;box-shadow:0 2px 3px #0009}.ds-range:focus-visible{outline:2px solid #e9e2d0;outline-offset:2px}"
+    },
+    {
+      "name": "Boîte de groupe",
+      "kind": "card",
+      "refersTo": "group-box",
+      "description": "Fieldset filet 1 px avec onglet-titre plein dans la couleur de signal ; état à droite.",
+      "html": "<fieldset class=\"ds-grp\" style=\"--gc:#f2c832\"><div class=\"ds-head\"><span>Gate arp</span><span>On · G.18</span></div><div class=\"ds-body\"><button class=\"ds-key\">On / Off</button></div></fieldset>",
+      "css": ".ds-grp{border:1px solid #484848;border-radius:5px;padding:0;margin:0;min-width:0;background:#2a2a2a}.ds-head{display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--gc,#f06a1f);color:#111;padding:6px 10px;font-family:'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;text-transform:uppercase;font-weight:700;font-size:12px;line-height:1;letter-spacing:.2em;border-radius:4px 4px 0 0}.ds-head span:last-child{font-weight:600;letter-spacing:.1em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-body{padding:12px 12px 14px;display:grid;gap:10px}.ds-key{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 12px;background:#3b3b3b;border:1px solid #1f1f1f;border-bottom-width:3px;border-radius:5px;font-family:'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;text-transform:uppercase;font-weight:600;font-size:13px;line-height:1;letter-spacing:.12em;color:#ece7da;cursor:pointer;white-space:nowrap;transition:background 150ms cubic-bezier(.2,.8,.2,1),transform 150ms cubic-bezier(.2,.8,.2,1)}.ds-key:hover:not(:disabled){background:#474747}.ds-key:focus-visible{outline:2px solid #e9e2d0;outline-offset:2px}.ds-key:active:not(:disabled),.ds-key.ds-held{transform:translateY(2px);border-bottom-width:1px;margin-bottom:2px;background:#474747}.ds-key:disabled{opacity:.38;cursor:not-allowed}"
+    },
+    {
+      "name": "Afficheur SOUND",
+      "kind": "custom",
+      "refersTo": "sound-display",
+      "description": "Puits brun-noir : identifiant orange 34 px tabulaire, nom ambré, catégorie sérigraphiée.",
+      "html": "<div class=\"ds-disp\"><span class=\"ds-id\">L.00</span><span class=\"ds-nm\">Ambient Lead</span><span class=\"ds-cat\">Lead · 00 / 99</span></div>",
+      "css": ".ds-disp{display:grid;grid-template-columns:auto 1fr;gap:0 12px;align-items:center;background:#1c0d02;border:1px solid #000;border-radius:5px;padding:8px 12px;box-shadow:inset 0 2px 8px #000;min-width:0}.ds-id{font:700 34px/1 'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;letter-spacing:.06em;color:#f06a1f;font-variant-numeric:tabular-nums;min-width:3.2ch;grid-row:1/3}.ds-nm{font:600 17px/1.15 'Barlow','Helvetica Neue',Arial,sans-serif;color:#ffb37a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-cat{font-family:'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;text-transform:uppercase;font-weight:600;font-size:11px;line-height:1;letter-spacing:.18em;color:#c47a4a;margin-top:3px}"
+    },
+    {
+      "name": "Pad XY",
+      "kind": "custom",
+      "refersTo": "pad-well",
+      "description": "Puits carré à colonnes de gamme sérigraphiées ; la colonne sous le doigt s'allume en orange, bague orange 38 px.",
+      "html": "<div class=\"ds-pad\"><div class=\"ds-rows\"></div><div class=\"ds-cols\"><i></i><i></i><i></i><i class=\"ds-lit\"></i><i></i><i></i><i></i><i></i></div><div class=\"ds-dead\"></div><div class=\"ds-dot\" style=\"left:44%;top:50%\"></div></div>",
+      "css": ".ds-pad{position:relative;aspect-ratio:1;max-width:320px;background:#111;border:1px solid #000;border-radius:6px;box-shadow:inset 0 2px 8px #000,0 1px 0 #3a3a3a;overflow:hidden;cursor:crosshair}.ds-rows{position:absolute;inset:4%;background:repeating-linear-gradient(to bottom,transparent 0 calc(25% - 1px),#262626 calc(25% - 1px) 25%)}.ds-cols{position:absolute;inset:4%;display:flex}.ds-cols i{flex:1;border-left:1px solid #333;background:linear-gradient(to top,#333 0,#333 6px,transparent 6px) left bottom/1px 100% no-repeat;transition:background 120ms cubic-bezier(.2,.8,.2,1)}.ds-cols i:first-child{border-left:0}.ds-cols i.ds-lit{background:rgba(240,106,31,.22);box-shadow:inset 1px 0 0 #f06a1f,inset -1px 0 0 #f06a1f}.ds-dead{position:absolute;inset:0;border:4% solid #161616;pointer-events:none}.ds-dot{position:absolute;width:38px;height:38px;border-radius:50%;border:3px solid #f06a1f;box-shadow:0 0 0 1px #0008,0 2px 6px #0009;transform:translate(-50%,-50%)}.ds-dot::after{content:\"\";position:absolute;left:50%;top:50%;width:6px;height:6px;margin:-3px;border-radius:50%;background:#f06a1f}"
+    },
+    {
+      "name": "Touche clavier",
+      "kind": "chip",
+      "refersTo": "kbd",
+      "description": "Mini-touche du pied de page pour les raccourcis.",
+      "html": "<kbd class=\"ds-kbd\">R</kbd> maintenir = REC <kbd class=\"ds-kbd\">Espace</kbd> play / stop",
+      "css": ".ds-kbd{display:inline-block;min-width:1.6em;text-align:center;background:#3b3b3b;border:1px solid #1f1f1f;border-bottom-width:2px;border-radius:3px;padding:0 5px;font-family:'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;text-transform:uppercase;text-transform:none;font-weight:600;font-size:11px;line-height:1.5;letter-spacing:.02em;color:#b9b3a5}"
+    }
+  ],
+  "narrative": {
+    "northStar": "La façade de groovebox",
+    "overview": "Glisse est un panneau, pas une page. La surface entière est une plaque de charbon (`bg` sous `panel`) sur laquelle sont vissés un pad noir mat et quatre boîtes de groupe ; chaque groupe porte sa propre couleur de signal dans un onglet-titre plein, comme les sections d'une TR-808 : orange SOUND, crème SCALE · KEY · TEMPO, jaune GATE ARP, rouge LOOP. Tout ce qui est actionnable est une touche caoutchouc grise à rebord inférieur de 3 px ; tout ce qui affiche est un puits noir encaissé. L'état ne se devine jamais : il est écrit dans l'onglet du groupe, et confirmé par une LED sur la touche.\n\nLa densité est celle d'un instrument : cibles de 44 px minimum, gouttières de 8–14 px, aucune interaction qui n'existe qu'au survol (souris et tactile à égalité). Le relief est mécanique et non « élevé » : lignes de couture claire/sombre entre les sections, encaissement des puits, rebord des touches. Rien ne flotte, rien ne brille sauf les LED et la bague orange sous le doigt.\n\nLe contrat de direction visait un charbon `#262626` / `#303030` ; le build a atterri sur `bg` / `panel` (`#1a1a1a` / `#2a2a2a`). Le wordmark est GLISSE (engagement de marque de PRODUCT.md), pas KAOSSILATOR. La typographie est une superfamille (Barlow + Barlow Condensed) plutôt qu'une seule face : condensée pour tout ce qui est sérigraphié, droite pour ce qui se lit.",
+    "keyCharacteristics": [
+      "Une couleur de signal par groupe, portée par un onglet-titre plein à texte noir ; jamais deux couleurs de signal dans le même groupe.",
+      "Touches caoutchouc rectangulaires (`btn`, rebord 3 px `btn-edge`, rayon 5 px) qui s'enfoncent de 2 px à l'appui.",
+      "Puits noirs (`well`, ombre interne) pour tout afficheur, sélecteur, champ, mètre et le pad lui-même.",
+      "Une seule rampe de lampes : 8 px sur les touches, 12 px sur le mètre et POWER.",
+      "Légendes sérigraphiées : Barlow Condensed 600/700, capitales, espacement 0.12–0.26em.",
+      "Motion à 150 ms, LED instantanées."
+    ],
+    "rules": [
+      {
+        "name": "The Une Couleur Par Groupe Rule",
+        "body": "Une couleur de signal identifie un groupe et ses états, rien d'autre. L'orange ne sort de SOUND que pour le pad (le pad est l'instrument que SOUND configure). Un nouveau groupe reçoit sa propre couleur ou du crème ; il n'emprunte jamais celle d'un voisin.",
+        "section": "colors"
+      },
+      {
+        "name": "The Texte Noir Sur Signal Rule",
+        "body": "Sur un onglet de couleur de signal, le texte est `#111`, jamais blanc, jamais l'encre crème.",
+        "section": "colors"
+      },
+      {
+        "name": "The LED N'est Pas Décor Rule",
+        "body": "Une lampe n'existe que sur une commande qui a un état (POWER, TAP, ON / OFF, REC, PLAY, SAVED, NEW LAYER, mètre). Les touches sans état (◀ ▶, FIX, CANCEL, CLEAR, ERASE) n'en portent pas.",
+        "section": "colors"
+      },
+      {
+        "name": "The Sérigraphie Rule",
+        "body": "Tout texte en Barlow Condensed est en capitales et espacé d'au moins 0.1em. Tout texte en Barlow droit est en casse normale, jamais espacé. Une chaîne ne mélange pas les deux.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabulaire Rule",
+        "body": "Toute valeur qui peut changer sous les yeux (identifiant, BPM, temps) porte `font-variant-numeric: tabular-nums`.",
+        "section": "typography"
+      },
+      {
+        "name": "The 44 Rule",
+        "body": "Toute commande (touche, select, champ, curseur, POWER) a `min-height: 44px`. Les lampes et les liens de pied ne sont pas des commandes.",
+        "section": "layout"
+      },
+      {
+        "name": "The Creux Ou Rebord Rule",
+        "body": "Une surface est soit un puits (fond `well`, bord `#000`, ombre interne), soit une touche (fond `btn`, rebord bas 3 px). Seuls les indicateurs d'état (lampe, bague, bouton de curseur) portent une ombre externe, jamais une surface.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do donner à tout nouveau groupe un onglet plein dans sa couleur de signal avec texte `#111` et une valeur d'état à droite ; l'état se lit dans l'onglet avant tout.",
+      "Do construire toute commande sur `.btn` (44px, rebord 3px, enfoncement 2px) et tout afficheur sur un puits `well` à ombre interne.",
+      "Do ajouter une lampe (8px sur touche, 12px sur mètre) uniquement quand la commande a un état, dans la couleur de ce rôle.",
+      "Do écrire les légendes en Barlow Condensed capitales espacées et les valeurs en Barlow droit, chiffres tabulaires.",
+      "Do garder les transitions à 150ms `cubic-bezier(.2,.8,.2,1)` et respecter `prefers-reduced-motion` (toutes coupées).",
+      "Do séparer les sections par la couture `seam-dark` / `seam-light` plutôt que par un espace vide."
+    ],
+    "donts": [
+      "Don't utiliser une couleur de signal hors de son groupe (l'orange sur le pad est l'unique exception, déjà établie).",
+      "Don't ajouter une ombre portée ou une lueur à une surface, une boîte ou une touche ; le relief est un rebord ou un creux, et les ombres courtes (≤ 6px) restent réservées aux indicateurs d'état (lampe, bague, bouton de curseur).",
+      "Don't arrondir une touche au-delà de 5px ni la rendre lumineuse ; les touches sont grises, seule la LED s'allume.",
+      "Don't lier une fonction au survol : le survol ne fait que teinter en `btn-hi`.",
+      "Don't cacher un réglage derrière un mode ou un menu ; chaque état reste visible en permanence.",
+      "Don't nommer le produit ou le wordmark « Kaossilator » ; la référence Korg reste une ligne de crédit en pied.",
+      "Don't introduire une troisième taille de lampe ni un glyphe de police pour une icône ; les icônes sont des SVG inline à trait de 2px."
+    ]
+  }
+}
