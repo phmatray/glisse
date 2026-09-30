@@ -1,3 +1,5 @@
+![glisse banner](.github/banner.png)
+
 # Glisse — synthé de phrases au pad XY (Web Audio)
 
 Recréation, inspirée du Korg Kaossilator KO-1 (2007), dans le navigateur. « Kaossilator » est une marque Korg : le projet s'appelle **Glisse** (nom de travail). Deux fichiers, zéro dépendance :
